@@ -35,7 +35,7 @@ var html = '<div>Foobar</div>';
 
 var vtree = convertHTML(html);
 var createElement = require('virtual-dom/create-element');
-var el = createElement(vTree);
+var el = createElement(vtree);
 document.body.appendChild(el);
 ```
 
